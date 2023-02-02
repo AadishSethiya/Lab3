@@ -18,27 +18,27 @@ computeFactorial:
     # Results are returned using $v0, $v1
 
     # Store on the stack
-    addi $sp, $sp, -8
-    sw $ra, 0($sp)
-    sw $a1, 4($sp)
+    addi $sp, $sp, -8                       # Make space for two integers
+    sw $ra, 0($sp)                          # Push the return address
+    sw $a1, 4($sp)                          # Push the argument(a1)
 
     # Handle Base case: if n==1 return 1
-    beq $a1, 1, factorialDone
+    beq $a1, 1, factorialDone           
 
-    sub $a1, $a1, 1
-    jal computeFactorial
+    sub $a1, $a1, 1                         # Get (n-1)
+    jal computeFactorial                    # Call factorial, with a1 = (n-1)
 
-    lw $ra, 0($sp)
-    lw $a1, 4($sp)
+    lw $ra, 0($sp)                          # Restore return address
+    lw $a1, 4($sp)                          # Restore a1 = n
 
-    mul $v1, $v1, $a1
+    mul $v1, $v1, $a1                       # Compute a1*v1 = n*fac(n-1)
 
-    addi $sp, $sp, 8
-    jr $ra
+    addi $sp, $sp, 8                        # Pop off from the Stack
+    jr $ra                                  # Return
 
 factorialDone:
-    li $v1, 1
-    jr $ra
+    li $v1, 1                               # 1! = 1
+    jr $ra                                  # Return
 
 main:
     # Print to the screen "Enter the number(n): "
