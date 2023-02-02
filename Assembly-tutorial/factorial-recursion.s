@@ -22,26 +22,6 @@ computeFactorial:
     sw $ra, 0($sp)
     sw $a1, 4($sp)
 
-    li $v0, 4
-    la $a0, recursing
-    syscall
-
-    li $v0, 1
-    move $a0, $ra
-    syscall
-
-    li $v0, 4
-    la $a0, newline
-    syscall
-
-    li $v0, 1
-    move $a0, $a1
-    syscall
-
-    li $v0, 4
-    la $a0, newline
-    syscall
-
     # Handle Base case: if n==0 return 1
     beq $a1, 1, factorialDone
 
@@ -51,30 +31,6 @@ computeFactorial:
     lw $ra, 0($sp)
     lw $a1, 4($sp)
 
-    li $v0, 4
-    la $a0, a1value
-    syscall
-
-    li $v0, 1
-    move $a0, $a1
-    syscall
-
-    li $v0, 4
-    la $a0, newline
-    syscall
-
-    li $v0, 4
-    la $a0, v1value
-    syscall
-
-    li $v0, 1
-    move $a0, $a1
-    syscall
-
-    li $v0, 4
-    la $a0, newline
-    syscall
-
     mul $v1, $v1, $a1
 
     addi $sp, $sp, 8
@@ -82,13 +38,6 @@ computeFactorial:
 
 factorialDone:
     li $v1, 1
-    li $v0, 1
-    move $a0, $ra
-    syscall
-
-    li $v0, 4
-    la $a0, newline
-    syscall
     jr $ra
 
 main:
