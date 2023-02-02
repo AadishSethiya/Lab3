@@ -22,7 +22,7 @@ computeFactorial:
     sw $ra, 0($sp)
     sw $a1, 4($sp)
 
-    # Handle Base case: if n==0 return 1
+    # Handle Base case: if n==1 return 1
     beq $a1, 1, factorialDone
 
     sub $a1, $a1, 1
