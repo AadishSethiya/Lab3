@@ -49,10 +49,10 @@ Where `T` is the number of cycles required to perform your matrix multiplication
 #### Constraints
 
 ```
-R1,C1,R2,C2 <= 4096
-mat1[i][j] <= 1000
-mat2[i][j] <= 1000
-mat3[i][j] <= 10**13
+0 < R1,C1,R2,C2 <= 4096
+0 <= mat1[i][j] <= 1000
+0 <= mat2[i][j] <= 1000
+0 <= mat3[i][j] <= 10**13
 ```
 
 ### d) Memory management
