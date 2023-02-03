@@ -98,3 +98,4 @@ The suffix of these files refer to the order in which you perform matrix multipl
 * For the plots below you may consider all matrices as square matrices with size `N` i.e, `R1 = R2 = C1 = C2 = N` 
 * Record the time required by each of these variants changing `N=128,256,512,1024,2048.4096`  and plot them in a line graph with x-axis as size of the matrix and y-axis as time taken by each variant in seconds, note that you need to specify a legend mapping each variant to a color.
 * NOTE that this generation of plots takes time, so do not delay it.
+* Make sure to include your approach with detailed explanation in the `report` file.
