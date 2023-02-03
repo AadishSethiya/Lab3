@@ -10,5 +10,4 @@ VIVA will be conducted for this Lab.
 * [Q1](Q1/README.md)
 * [Q2](Q2/README.md)
 * [Q3](Q3/README.md)
-
-## Q4 (The curious case of Matrix Multiplication) - 80 points
+* [Q4](Q4/README.md)
