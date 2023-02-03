@@ -86,7 +86,7 @@ These matrices should be accessible in the following manner:
 &mat1[0][0] = a1 i.e, the matrix is 0-indexed
 ```
 
-You can validate if your memory layout is correct by performing a `make` command and running `./memtest.o < mem_test.inp`, the output obtained must match the output in file `mem_test.out` excluding the first line of `stdout` and `mem_test.out`
+You can validate if your memory layout is correct by performing a `make` command and running `./memtest.o < mem_test.inp`, the output obtained must match the output in file `mem_test.out` excluding the first line of `stdout` and `mem_test.output`
 
 ### e) Matrix Multiplication
 
