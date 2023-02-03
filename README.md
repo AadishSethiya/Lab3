@@ -1,12 +1,13 @@
 # CS232-Lab3
 
+VIVA will be conducted for this Lab.
+
 -----------------------------------------------------------------------------------
 
 ## Reading Material:
 * [System calls in MIPS](https://courses.missouristate.edu/kenvollmar/mars/help/syscallhelp.html)
 * [MIPS Cheat Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
 * 
-
 -----------------------------------------------------------------------------------
 
 ## Common Grading Schema:
@@ -18,8 +19,13 @@ You are provided with 3 binary executables named as part_a, part_b, part_c. Use 
 * For part_b, the program takes in 3 integer inputs \[definition: part_b(int,int,int)\]. Given a valid triplet you obtain a valid output, while every other branch terminates.
 * For part_c, the program takes in a string input \[definition: part_c(char*)\]. A specific null-terminated string results in a valid output, in all other cases the program terminates
 
-In README.md, provide clear insights on how you read through the assembly code, and how you discovered the implementation details. Finally, print the following string:
+In README.md, provide clear insights on how you read through the assembly code, and how you discovered the implementation details. Finally, print the following string into your README:
 `{part 1’s output} + {part 2’s output} + {part 3’s output}`, where + denotes concatenation.
+
+### Grading Scheme:
+* Correct Flag, no explanation => `0` marks
+* Incorrect flag, but reasonable explanation => `20` marks
+* Correct Flag, correct explanation => `50` marks
 
 ## Q2 (Find the inverse modulo m) - 20 points
 Write an assembly program to find the inverse of a number a modulo m. Note that the inverse of `a` modulo `m` is the number `x` such that `ax = 1 (mod m)`. 
@@ -27,10 +33,15 @@ Write an assembly program to find the inverse of a number a modulo m. Note that 
 The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
 
 ### Input Format(`input.txt`):
-a m
+```
+a 
+m
+```
 
 ### Output Format(`output.txt`):
+```
 x 
+```
 
 ### Constraints:
 a, m are 64-bit positive integers.
@@ -46,17 +57,21 @@ Write an assembly program using MIPS ISA to sort an array of numbers using In-pl
 The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
 
 ### Input Format(`input.txt`):
+```
 N
 a1
 a2
 ...
 aN
+```
 
 ### Output Format(`output.txt`):
+```
 b1
 b2
 ...
 bN
+```
 
 where `(b1, b2, ..., bn)` denotes the sorted version of `(a1, a2, ..., an)`
 
