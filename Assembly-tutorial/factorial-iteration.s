@@ -8,9 +8,9 @@ newline: .asciiz "\n"
 .text
 
 loop:
-    beq $a0, 0, loopdone
-    mul $s0, $s0, $a0
-    sub $a0, $a0, 1
+    beq $a0, 0, loopdone        # n == 0?         
+    mul $s0, $s0, $a0           # res *= n*(n-1)*(n-2)...*1
+    sub $a0, $a0, 1             # n=n-1
     j loop
 
 loopdone:
@@ -26,14 +26,14 @@ main:
     li $v0, 5
     syscall
 
-    move $a0, $v0
+    move $a0, $v0             # a0 = n
     move $a1, $v0
 
     # compute the factorial here!
     # fac(n) = n*(n-1)*(n-2)*...*1
 
     # Need a for loop here; store the result in s0
-    li $s0, 1
+    li $s0, 1                 # s0 = 1
     jal loop
 
     # Print the output "The factorial of "
@@ -61,6 +61,3 @@ main:
     li $v0, 10
     syscall
 
-    
-
-    

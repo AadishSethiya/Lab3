@@ -7,7 +7,6 @@ newline: .asciiz "\n"
 
 .text
 
-
 main:
     # Print to the screen "Enter the number(n): "
     li $v0, 4
@@ -23,7 +22,9 @@ main:
 
     # compute the factorial here!
     # fac(n) = n*(n-1)*(n-2)*...*1
-    
+
+    li $s0, 1           # stores the result
+    jal loop            #     
 
     # Print the output "The factorial of "
     li $v0, 4
