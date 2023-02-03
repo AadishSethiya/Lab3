@@ -1,4 +1,4 @@
-## Q4 (The curious case of Matrix Multiplication)
+## Q4 (The curious case of Matrix Multiplication) - 90 points
 
 ### a) Review
 * In this question you are to implement matrix multiplication of two matrices and return the result.
@@ -91,8 +91,7 @@ You can validate if your memory layout is correct by performing a `make` command
 ### e) Matrix Multiplication
 
 In this part, you need to implement the matrix multiplication code in each of the following files:
-* matrix-multiplication-{ijk,ikj,jik,jki,kij,kji}.asm
-<br>
+* matrix-multiplication-{ijk,ikj,jik,jki,kij,kji}.asm  
 The suffix of these files refer to the order in which you perform matrix multiplication, for further details read the pseudo-code written in the files themselves. These files create the following binaries respectively, 
 * matrix-{ijk,ikj,jik,jki,kij,kji}.o
 * Your matrix multiplication code for all of these parts will be validated for correctness followed by performance. 
