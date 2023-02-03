@@ -1,4 +1,4 @@
-## Q4 (The curious case of Matrix Multiplication)
+## Q4 (The curious case of Matrix Multiplication) - 90 points
 
 ### a) Review
 * In this question you are to implement matrix multiplication of two matrices and return the result.
