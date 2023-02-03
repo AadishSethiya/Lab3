@@ -2,12 +2,9 @@
 
 VIVA will be conducted for this Lab.
 
------------------------------------------------------------------------------------
-
 ## Reading Material:
 * [System calls in MIPS](https://courses.missouristate.edu/kenvollmar/mars/help/syscallhelp.html)
 * [MIPS Cheat Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
------------------------------------------------------------------------------------
 
 ## Questions:
 * [Q1](Q1/README.md)
