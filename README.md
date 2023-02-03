@@ -52,3 +52,4 @@ sudo apt-get install spim
 ├── {roll_number}-report.pdf
 ```
 * You need to submit a pdf report named `{roll_number}-report.pdf` containing the details required by the questions.
+* Here, `{roll_number}` is your roll number.
