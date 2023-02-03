@@ -28,3 +28,27 @@ sudo apt install nasm_2.15.05-1_amd64.deb
 ```
 sudo apt-get install spim
 ```
+
+## Submission Instructions:
+* Clone this repo, name it as `{roll_number}_cs232_lab3`
+* Final submission structure should look like this:
+```
+{roll_number}_cs232_lab3
+├── Q2
+│   ├── inverse.s
+├── Q3
+│   ├── inplacemergesort.s
+├── Q4
+│   ├── io.asm
+│   ├── Makefile
+│   ├── matrix-multiplcation-testbench.asm
+│   ├── matrix-multiplication-ijk.asm
+│   ├── matrix-multiplication-ikj.asm
+│   ├── matrix-multiplication-jik.asm
+│   ├── matrix-multiplication-jki.asm
+│   ├── matrix-multiplication-kij.asm
+│   ├── matrix-multiplication-kji.asm
+│   ├── memory-test.asm
+├── {roll_number}-report.pdf
+```
+* You need to submit a pdf report named `{roll_number}-report.pdf` containing the details required by the questions.
