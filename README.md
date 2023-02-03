@@ -15,3 +15,16 @@ VIVA will be conducted for this Lab.
 * [Q2](Q2/README.md)
 * [Q3](Q3/README.md)
 * [Q4](Q4/README.md)
+
+## Installation Instructions:
+
+### nasm
+```
+wget http://archive.ubuntu.com/ubuntu/pool/universe/n/nasm/nasm_2.15.05-1_amd64.deb
+sudo apt install nasm_2.15.05-1_amd64.deb
+```
+
+### spim
+```
+sudo apt-get install spim
+```
