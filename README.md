@@ -19,7 +19,9 @@ In README.md, provide clear insights on how you read through the assembly code, 
 `{part 1’s output} + {part 2’s output} + {part 3’s output}`, where + denotes concatenation.
 
 ## Q2 (Find the inverse modulo m) - 20 points
-Write an assembly program to find the inverse of a number a modulo m. Note that the inverse of `a` modulo `m` is the number `x` such that `ax = 1 (mod m)`. The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
+Write an assembly program to find the inverse of a number a modulo m. Note that the inverse of `a` modulo `m` is the number `x` such that `ax = 1 (mod m)`. 
+
+The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
 
 ### Input Format(`input.txt`):
 a m
@@ -32,6 +34,28 @@ a, m are 64-bit positive integers.
 
 
 ## Q3 (Merge sort with a twist!)
-Write an assembly program using MIPS ISA to sort an array of numbers using In-place merge sort, without  
+Write an assembly program using MIPS ISA to sort an array of numbers using In-place merge sort(merge sort without using extra additional space)
+
+The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
+
+### Input Format(`input.txt`):
+N
+a1
+a2
+...
+aN
+
+### Output Format(`output.txt`):
+b1
+b2
+...
+bN
+
+where `(b1, b2, ..., bn)` denotes the sorted version of `(a1, a2, ..., an)`
+
+### Constraints:
+* `N <= 10000`
+* `a_i <= 10000` for all `i = 1, 2, ..., N`
+
 
 ## Q4 (The curious case of Matrix Multiplication)
