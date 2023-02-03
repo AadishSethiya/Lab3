@@ -1,4 +1,4 @@
-## Q1 (Capture the Flag!) - 50 points
+## Q1 (Capture the Flag!) - 30 points
 You are provided with 3 binary executables named as part_a, part_b, part_c. Use the objdump command to disassemble these executables, and understand them and obtain a valid output from them. 
 * For part_a, the program takes in only a integer input \[definition: part_a(int)\] . A valid input results in a valid output while any other input terminates the program.
 * For part_b, the program takes in 3 integer inputs \[definition: part_b(int,int,int)\]. Given a valid triplet you obtain a valid output, while every other branch terminates.
