@@ -36,6 +36,7 @@ sudo apt-get install spim
 
 ## Submission Instructions:
 * Clone this repo, name it as `{roll_number}_cs232_lab3`
+* <span style="color:red">Make sure to keep this repo as a `private` repo (It's your responsibility to keep it private, we will not be responsible for any plagiarism/loss of marks due to this)</span>
 * Final submission structure should look like this:
 ```
 {roll_number}_cs232_lab3
