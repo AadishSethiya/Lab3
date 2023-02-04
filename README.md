@@ -2,6 +2,11 @@
 
 VIVA will be conducted for this Lab.
 
+## Tutorial Videos:
+* [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
+* [Youtube Tutorial 2](https://www.youtube.com/watch?v=9sumRfIgaHs)
+* [Youtube Tutorial 3](https://www.youtube.com/watch?v=9if9kS92Ha8)
+
 ## Reading Material:
 * [System calls in MIPS](https://courses.missouristate.edu/kenvollmar/mars/help/syscallhelp.html)
 * [MIPS Cheat Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
