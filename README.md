@@ -57,4 +57,5 @@ sudo apt-get install spim
 ├── {roll_number}-report.pdf
 ```
 * You need to submit a pdf report named `{roll_number}-report.pdf` containing the details required by the questions.
+* Submit a compressed file `{roll_number}_cs232_lab3.tar.gz`
 * Here, `{roll_number}` is your roll number.
