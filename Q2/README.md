@@ -16,4 +16,5 @@ x
 ```
 
 ### Constraints:
-a, m are 64-bit positive integers.
+* a, m are 64-bit positive integers.
+* a, m are coprime.

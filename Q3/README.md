@@ -25,5 +25,5 @@ bN
 where `(b1, b2, ..., bn)` denotes the sorted version of `(a1, a2, ..., an)`
 
 ### Constraints:
-* `N <= 10000`
-* `a_i <= 10000` for all `i = 1, 2, ..., N`
+* `0 < N <= 10000`
+* `0 <= a_i <= 10000` for all `i = 1, 2, ..., N`
