@@ -5,7 +5,7 @@ You are provided with 3 binary executables named as part_a, part_b, part_c. Use 
 * For part_c, the program takes in a string input \[definition: `part_c(char*)`\]. A specific null-terminated string results in a valid output, in all other cases the program terminates
 
 For each of the programs, you will also get a secret number, which you should include in your `report`. Along with that, provide clear insights on how you read through the assembly code, and how you discovered the implementation details. Finally, print the following string(flag) into your `report`:
-`{part 1’s output} + {part 2’s output} + {part 3’s output}`, where + denotes concatenation.
+`{part 1’s output} + {part 3’s output} + {part 2’s output}`, where + denotes concatenation.
 
 ### Grading Scheme:
 * If no explanation is provided, `0` marks will be provided even if the correct flag is given.
