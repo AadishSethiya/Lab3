@@ -4,6 +4,11 @@ Write an assembly program(`inverse.s`) using MIPS32 ISA to find the inverse of a
 * The program takes in input (format specified below) from a file named `input.txt`, and write it to a file named `output.txt`
 * Make sure to include your approach with detailed explanation in the `report` file.
 * If you have submitted a solution for the bonus part, clearly mention that in the `report` file. Not mentioning it will result in `0` marks for the bonus part.
+* Do not read/write from the file using open/read/write file systemcalls. Use read/write int/string system calls only.
+* We'll be running the following command:
+```
+    spim -f inverse.s < input.txt > output.txt
+```
 
 ### Input Format(`input.txt`):
 ```
