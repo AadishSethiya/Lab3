@@ -25,6 +25,21 @@ sudo docker exec -it cs251 /bin/bash
     make # This should run successfully, if correctly installed
 ```
 
+## Using spim inside docker: 
+* Docker:
+``` 
+sudo docker start cs251
+sudo docker exec -it cs251 /bin/bash
+```
+* Navigate to the `host` Directory, which is a shared folder for your local machine and the docker container.
+* Download the `spim` binary and `exceptions.s` file in the repo, to the `Lab3` directory.
+* Navigate to the `Lab3` directory inside the docker container.
+* Run the following:
+```
+    chmod +x spim
+    ./spim -exception_file exceptions.s -f <filename>.s
+```
+
 ## Tutorial Videos:
 * [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
 * [Youtube Tutorial 2](https://www.youtube.com/watch?v=9sumRfIgaHs)
