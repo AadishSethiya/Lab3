@@ -2,6 +2,29 @@
 
 VIVA will be conducted for this Lab.
 
+## Instructions for Mac Users:
+* Install Rosetta:
+```
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+```
+* Open Docker desktop and start the CS251 container
+* Docker:
+``` 
+sudo docker start cs251
+sudo docker exec -it cs251 /bin/bash
+```
+* Navigate to the `host` Directory, which is a shared folder for your local machine and the docker container.
+* Navigate to the `Lab3` directory, which is a clone of the Github repo.
+* For Q1, just run the binaries(`./part_a`, `./part_b`, `./part_c`)
+* Download the `nasm` binary in the repo, inside the `Q4` folder in your local machine
+* Inside Docker, go to the Q4 directory, run the following:
+```
+    chmod +x nasm
+    export PATH=$PATH:/host/Lab3/Q4
+    nasm -v # This should give version number if correctly installed
+    make # This should run successfully, if correctly installed
+```
+
 ## Tutorial Videos:
 * [Youtube Tutorial 1](https://www.youtube.com/watch?v=tzkwW2SXWmQ)
 * [Youtube Tutorial 2](https://www.youtube.com/watch?v=9sumRfIgaHs)
