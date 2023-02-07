@@ -54,6 +54,7 @@ Where `T` is the number of cycles required to perform your matrix multiplication
 0 <= mat2[i][j] <= 1000
 0 <= mat3[i][j] <= 10**13
 ```
+NOTE: For both parts d) and e) you are only allowed to use syscalls and not use any C/C++ functionality!
 
 ### d) Memory management
 
