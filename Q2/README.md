@@ -25,6 +25,7 @@ x
 * a, m are __32-bit__ positive integers.
 * a, m are coprime.
 * a < m
+* Complexity - O(log(m))
 
 ## Constrains for Bonus part: (30 points)
 * a, m are __64-bit__ positive integers.
