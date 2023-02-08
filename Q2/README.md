@@ -22,7 +22,7 @@ x
 ```
 
 ### Constraints:
-* a, m are __32-bit__ positive integers.
+* `0 < a, m <= (2^31) - 1`
 * a, m are coprime.
 * `a < m`
 * `0 < x < m`
