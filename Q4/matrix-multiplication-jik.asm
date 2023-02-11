@@ -14,7 +14,7 @@ matrix_mult:
         push r13
 
 ; ; 0-indexing on all matrices
-; ; mat1[i][j] = rdi+(rsi*i+j)*8
+; ; mat1[i][j] = rdi+(rdx*i+j)*8
 ; ; assume rdx = r8
 ; ; GOAL - Perform matrix multiplication of mat1, mat2 and save result in mat3
 
