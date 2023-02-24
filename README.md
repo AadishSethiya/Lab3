@@ -87,7 +87,7 @@ sudo apt-get install spim
 ├── Q4
 │   ├── io.asm
 │   ├── Makefile
-│   ├── matrix-multiplcation-testbench.asm
+│   ├── matrix-multiplication-testbench.asm
 │   ├── matrix-multiplication-ijk.asm
 │   ├── matrix-multiplication-ikj.asm
 │   ├── matrix-multiplication-jik.asm
